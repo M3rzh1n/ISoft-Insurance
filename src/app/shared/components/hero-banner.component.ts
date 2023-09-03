@@ -3,27 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-hero-banner',
   template: `
-    <div class="hero-banner hero-banner--aqua-emerald">
-      <div class="hero-banner__logo">
-        <img class="hero-banner__image" [src]="logo" alt="Angular logo" />
-      </div>
-      <h1 class="hero-banner__headline">Hello, Angular World!</h1>
-      <p class="hero-banner__description">
-        This is a sample application that demonstrates the authentication flow
-        for Angular apps using <strong>Auth0</strong>.
-      </p>
-      <a
-        id="code-sample-link"
-        class="button button--secondary"
-        href="https://developer.auth0.com/resources/code-samples/spa/angular/basic-authentication"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Check out the Angular code sample →
-      </a>
+
+      <div style="text-align: center; padding-top: 10px; ">
+        <img width="100px" height="100px" class="hero-banner__image" [src]="logo" alt="ISoft logo" />
+        <p></p>
+        <h2 class="auth0-features__title">ISoft Insurance</h2>
     </div>
   `,
 })
 export class HeroBannerComponent {
-  logo = 'https://cdn.auth0.com/blog/developer-hub/angular-logo.svg';
+  logo = 'https://raw.githubusercontent.com/M3rzh1n/ISoft-Demo/main/insurance.png';
 }
