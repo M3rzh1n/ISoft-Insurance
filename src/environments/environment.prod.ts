@@ -2,10 +2,10 @@ export const environment = {
   production: true,
   auth0: {
     domain: 'dev-isoft.us.auth0.com',
-    clientId: 'lERzBtf7cxB37irvf5ON8ZPjyXXnYYyR',
-    audience: 'https://ghost-api/',
+    clientId: 'oJQrQVZ7VRWmXPn4TRUuic3XLQWgznUm',
+    audience: '',
     authorizationParams: {
-      redirect_uri: 'https://m3rzh1n.github.io/Angular_Typescript_App2/callback',
+      redirect_uri: 'http://localhost:4040',
     },
     errorPath: '/callback',
   },

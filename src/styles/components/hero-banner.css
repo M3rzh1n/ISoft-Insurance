@@ -12,7 +12,7 @@
   /* responsive */
 
   margin: 0 auto;
-
+  padding: 3.2rem 6.4rem;
 }
 
 .hero-banner--yellow-mandarine {
@@ -34,25 +34,30 @@
   background: var(--emerald-yellow-gradient);
 }
 
+.hero-banner--insurance {
+  background: url(https://raw.githubusercontent.com/M3rzh1n/ISoft-Demo/main/insurance-sales.png) no-repeat center;     
+  background-size: 100% auto;
+}
+
 .hero-banner__logo {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  background-color: var(--white);
+  background-color: var(--black);
   border-radius: 50%;
 
-  box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.44);
 
   /* responsive */
 
-  width: 100px;
-  height: 100px;
+  width: 12.8rem;
+  height: 12.8rem;
 }
 
 .hero-banner__image {
-  width: 100px;
-  height: 100px;
+  width: 8.8rem;
+  height: 8.8rem;
 }
 
 .hero-banner__image--small {

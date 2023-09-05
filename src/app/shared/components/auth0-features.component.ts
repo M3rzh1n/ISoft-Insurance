@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-auth0-features',
   template: `
     <div class="auth0-features">
-      <h2 class="auth0-features__title">Protecting people, businesses and futures for more than 50 years</h2>
+      
     <!-- Start -->
     
     <!-- End -->

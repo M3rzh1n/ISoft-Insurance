@@ -38,8 +38,6 @@ import { Auth0ResourceModel } from '@app/core';
               class="page-footer-brand__logo"
               src="https://raw.githubusercontent.com/M3rzh1n/ISoft-Demo/main/IsoftLogo.png"
               alt="ISoft"
-              width="22.2"
-              height="22.2"
             />
             <app-page-footer-hyperlink path="https://www.integrity-software.co.il"
               >Integrity-Software</app-page-footer-hyperlink
