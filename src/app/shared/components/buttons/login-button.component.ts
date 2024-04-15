@@ -16,7 +16,7 @@ export class LoginButtonComponent {
         target: '/profile',
       },
       authorizationParams: {
-        prompt: 'login',
+        prompt: 'none',
       },
     });
   }
